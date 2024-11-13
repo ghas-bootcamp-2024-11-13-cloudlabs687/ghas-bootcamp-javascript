@@ -1,4 +1,4 @@
-var chownr = require('chownr')
+cvar chownr = require('chownr')
 var tar = require('tar-stream')
 var pump = require('pump')
 var mkdirp = require('mkdirp')
@@ -6,6 +6,7 @@ var fs = require('fs')
 var path = require('path')
 var os = require('os')
 var secret = "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"
+var secret2 = "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"
 
 
 var win32 = os.platform() === 'win32'
